@@ -326,15 +326,186 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/yuechu/proprietary/vendor/etc/virtual-spn-conf-by-efspn.xml:$(TARGET_COPY_OUT_VENDOR)/etc/virtual-spn-conf-by-efspn.xml \
     vendor/xiaomi/yuechu/proprietary/vendor/etc/virtual-spn-conf-by-imsi.xml:$(TARGET_COPY_OUT_VENDOR)/etc/virtual-spn-conf-by-imsi.xml \
     vendor/xiaomi/yuechu/proprietary/vendor/etc/wifi/passpointProfile.conf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/passpointProfile.conf \
+    vendor/xiaomi/yuechu/proprietary/vendor/firmware/0_click_P_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/0_click_P_RTP.bin \
+    vendor/xiaomi/yuechu/proprietary/vendor/firmware/101_offlineCountdown_P_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/101_offlineCountdown_P_RTP.bin \
+    vendor/xiaomi/yuechu/proprietary/vendor/firmware/102_sceneBombInjury_P_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/102_sceneBombInjury_P_RTP.bin \
+    vendor/xiaomi/yuechu/proprietary/vendor/firmware/103_sceneBomb_P_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/103_sceneBomb_P_RTP.bin \
+    vendor/xiaomi/yuechu/proprietary/vendor/firmware/104_doorOpen_P_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/104_doorOpen_P_RTP.bin \
+    vendor/xiaomi/yuechu/proprietary/vendor/firmware/106_sceneStep_P_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/106_sceneStep_P_RTP.bin \
+    vendor/xiaomi/yuechu/proprietary/vendor/firmware/107_crawl_P_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/107_crawl_P_RTP.bin \
+    vendor/xiaomi/yuechu/proprietary/vendor/firmware/108_scopeOn_P_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/108_scopeOn_P_RTP.bin \
+    vendor/xiaomi/yuechu/proprietary/vendor/firmware/109_scopeOff_P_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/109_scopeOff_P_RTP.bin \
+    vendor/xiaomi/yuechu/proprietary/vendor/firmware/110_magazineQuick_P_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/110_magazineQuick_P_RTP.bin \
+    vendor/xiaomi/yuechu/proprietary/vendor/firmware/111_grenade_P_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/111_grenade_P_RTP.bin \
+    vendor/xiaomi/yuechu/proprietary/vendor/firmware/112_sceneGetshot_P_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/112_sceneGetshot_P_RTP.bin \
+    vendor/xiaomi/yuechu/proprietary/vendor/firmware/113_grenadeExplosion_P_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/113_grenadeExplosion_P_RTP.bin \
+    vendor/xiaomi/yuechu/proprietary/vendor/firmware/114_punch_P_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/114_punch_P_RTP.bin \
+    vendor/xiaomi/yuechu/proprietary/vendor/firmware/115_pan_P_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/115_pan_P_RTP.bin \
+    vendor/xiaomi/yuechu/proprietary/vendor/firmware/116_bandage_P_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/116_bandage_P_RTP.bin \
+    vendor/xiaomi/yuechu/proprietary/vendor/firmware/118_sceneJump_P_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/118_sceneJump_P_RTP.bin \
+    vendor/xiaomi/yuechu/proprietary/vendor/firmware/119_vehiclePlane_P_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/119_vehiclePlane_P_RTP.bin \
+    vendor/xiaomi/yuechu/proprietary/vendor/firmware/120_sceneOpenparachute_P_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/120_sceneOpenparachute_P_RTP.bin \
+    vendor/xiaomi/yuechu/proprietary/vendor/firmware/121_sceneCloseparachute_P_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/121_sceneCloseparachute_P_RTP.bin \
+    vendor/xiaomi/yuechu/proprietary/vendor/firmware/122_vehicleCollision_P_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/122_vehicleCollision_P_RTP.bin \
+    vendor/xiaomi/yuechu/proprietary/vendor/firmware/123_vehicleBuggy_P_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/123_vehicleBuggy_P_RTP.bin \
+    vendor/xiaomi/yuechu/proprietary/vendor/firmware/124_vehicleDacia_P_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/124_vehicleDacia_P_RTP.bin \
+    vendor/xiaomi/yuechu/proprietary/vendor/firmware/125_vehicleMoto_P_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/125_vehicleMoto_P_RTP.bin \
+    vendor/xiaomi/yuechu/proprietary/vendor/firmware/126_firearmsAkm_P_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/126_firearmsAkm_P_RTP.bin \
+    vendor/xiaomi/yuechu/proprietary/vendor/firmware/127_firearmsM16a4_P_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/127_firearmsM16a4_P_RTP.bin \
+    vendor/xiaomi/yuechu/proprietary/vendor/firmware/129_firearmsAwm_P_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/129_firearmsAwm_P_RTP.bin \
+    vendor/xiaomi/yuechu/proprietary/vendor/firmware/130_firearmsMini14_P_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/130_firearmsMini14_P_RTP.bin \
+    vendor/xiaomi/yuechu/proprietary/vendor/firmware/131_firearmsVss_P_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/131_firearmsVss_P_RTP.bin \
+    vendor/xiaomi/yuechu/proprietary/vendor/firmware/132_firearmsQbz_P_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/132_firearmsQbz_P_RTP.bin \
+    vendor/xiaomi/yuechu/proprietary/vendor/firmware/133_firearmsUmp9_P_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/133_firearmsUmp9_P_RTP.bin \
+    vendor/xiaomi/yuechu/proprietary/vendor/firmware/134_firearmsDp28_P_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/134_firearmsDp28_P_RTP.bin \
+    vendor/xiaomi/yuechu/proprietary/vendor/firmware/135_firearmsS1897_P_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/135_firearmsS1897_P_RTP.bin \
+    vendor/xiaomi/yuechu/proprietary/vendor/firmware/137_firearmsP18c_P_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/137_firearmsP18c_P_RTP.bin \
+    vendor/xiaomi/yuechu/proprietary/vendor/firmware/140_cfmKillOne_P_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/140_cfmKillOne_P_RTP.bin \
+    vendor/xiaomi/yuechu/proprietary/vendor/firmware/141_cfmHeadshot_P_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/141_cfmHeadshot_P_RTP.bin \
+    vendor/xiaomi/yuechu/proprietary/vendor/firmware/142_cfmMultiKill_P_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/142_cfmMultiKill_P_RTP.bin \
+    vendor/xiaomi/yuechu/proprietary/vendor/firmware/143_cfmKillOneStrong_P_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/143_cfmKillOneStrong_P_RTP.bin \
+    vendor/xiaomi/yuechu/proprietary/vendor/firmware/144_cfmHeadshotStrong_P_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/144_cfmHeadshotStrong_P_RTP.bin \
+    vendor/xiaomi/yuechu/proprietary/vendor/firmware/145_cfmMultiKillStrong_P_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/145_cfmMultiKillStrong_P_RTP.bin \
+    vendor/xiaomi/yuechu/proprietary/vendor/firmware/146_cfmWeaponGrenadeExplode_P_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/146_cfmWeaponGrenadeExplode_P_RTP.bin \
+    vendor/xiaomi/yuechu/proprietary/vendor/firmware/147_cfmWeaponGrenadeKillOne_P_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/147_cfmWeaponGrenadeKillOne_P_RTP.bin \
+    vendor/xiaomi/yuechu/proprietary/vendor/firmware/148_cfmImpactFleshNormal_P_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/148_cfmImpactFleshNormal_P_RTP.bin \
+    vendor/xiaomi/yuechu/proprietary/vendor/firmware/149_cfmWeaponC4Installed_P_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/149_cfmWeaponC4Installed_P_RTP.bin \
+    vendor/xiaomi/yuechu/proprietary/vendor/firmware/150_cfmHeroAppear_P_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/150_cfmHeroAppear_P_RTP.bin \
+    vendor/xiaomi/yuechu/proprietary/vendor/firmware/151_cfmUIRewardOpenBox_P_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/151_cfmUIRewardOpenBox_P_RTP.bin \
+    vendor/xiaomi/yuechu/proprietary/vendor/firmware/152_cfmUIRewardTask_P_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/152_cfmUIRewardTask_P_RTP.bin \
+    vendor/xiaomi/yuechu/proprietary/vendor/firmware/153_cfmWeaponBLTShoot_P_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/153_cfmWeaponBLTShoot_P_RTP.bin \
+    vendor/xiaomi/yuechu/proprietary/vendor/firmware/154_Atlantis_P_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/154_Atlantis_P_RTP.bin \
+    vendor/xiaomi/yuechu/proprietary/vendor/firmware/155_DigitalUniverse_P_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/155_DigitalUniverse_P_RTP.bin \
+    vendor/xiaomi/yuechu/proprietary/vendor/firmware/156_Reveries_P_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/156_Reveries_P_RTP.bin \
+    vendor/xiaomi/yuechu/proprietary/vendor/firmware/161_gameboxLaunch_P_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/161_gameboxLaunch_P_RTP.bin \
+    vendor/xiaomi/yuechu/proprietary/vendor/firmware/162_GestureBackPull_P_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/162_GestureBackPull_P_RTP.bin \
+    vendor/xiaomi/yuechu/proprietary/vendor/firmware/163_GestureBackRelease_P_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/163_GestureBackRelease_P_RTP.bin \
+    vendor/xiaomi/yuechu/proprietary/vendor/firmware/164_alert_P_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/164_alert_P_RTP.bin \
+    vendor/xiaomi/yuechu/proprietary/vendor/firmware/165_feedbackNegativeLight_P_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/165_feedbackNegativeLight_P_RTP.bin \
+    vendor/xiaomi/yuechu/proprietary/vendor/firmware/166_feedbackNeutral_P_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/166_feedbackNeutral_P_RTP.bin \
+    vendor/xiaomi/yuechu/proprietary/vendor/firmware/167_feedbackPositive_P_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/167_feedbackPositive_P_RTP.bin \
+    vendor/xiaomi/yuechu/proprietary/vendor/firmware/168_fingerprintRecord_P_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/168_fingerprintRecord_P_RTP.bin \
+    vendor/xiaomi/yuechu/proprietary/vendor/firmware/169_lockdown_P_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/169_lockdown_P_RTP.bin \
+    vendor/xiaomi/yuechu/proprietary/vendor/firmware/170_slidingDamping_P_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/170_slidingDamping_P_RTP.bin \
+    vendor/xiaomi/yuechu/proprietary/vendor/firmware/171_todoAlldone_P_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/171_todoAlldone_P_RTP.bin \
+    vendor/xiaomi/yuechu/proprietary/vendor/firmware/172_uninstallAnimationIcon_P_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/172_uninstallAnimationIcon_P_RTP.bin \
+    vendor/xiaomi/yuechu/proprietary/vendor/firmware/173_signalButtonHighlight_P_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/173_signalButtonHighlight_P_RTP.bin \
+    vendor/xiaomi/yuechu/proprietary/vendor/firmware/174_signalButtonNegative_P_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/174_signalButtonNegative_P_RTP.bin \
+    vendor/xiaomi/yuechu/proprietary/vendor/firmware/175_signalButton_P_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/175_signalButton_P_RTP.bin \
+    vendor/xiaomi/yuechu/proprietary/vendor/firmware/176_signalClockHigh_P_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/176_signalClockHigh_P_RTP.bin \
+    vendor/xiaomi/yuechu/proprietary/vendor/firmware/177_signalClock_P_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/177_signalClock_P_RTP.bin \
+    vendor/xiaomi/yuechu/proprietary/vendor/firmware/178_signalClockUnit_P_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/178_signalClockUnit_P_RTP.bin \
+    vendor/xiaomi/yuechu/proprietary/vendor/firmware/179_signalInputbox_P_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/179_signalInputbox_P_RTP.bin \
+    vendor/xiaomi/yuechu/proprietary/vendor/firmware/180_signalKeyHigh_P_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/180_signalKeyHigh_P_RTP.bin \
+    vendor/xiaomi/yuechu/proprietary/vendor/firmware/181_signalKeyUnit_P_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/181_signalKeyUnit_P_RTP.bin \
+    vendor/xiaomi/yuechu/proprietary/vendor/firmware/182_signalListHighlight_P_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/182_signalListHighlight_P_RTP.bin \
+    vendor/xiaomi/yuechu/proprietary/vendor/firmware/183_signalList_P_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/183_signalList_P_RTP.bin \
+    vendor/xiaomi/yuechu/proprietary/vendor/firmware/184_signalPicker_P_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/184_signalPicker_P_RTP.bin \
+    vendor/xiaomi/yuechu/proprietary/vendor/firmware/185_signalPopup_P_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/185_signalPopup_P_RTP.bin \
+    vendor/xiaomi/yuechu/proprietary/vendor/firmware/186_signalSeekbar_P_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/186_signalSeekbar_P_RTP.bin \
+    vendor/xiaomi/yuechu/proprietary/vendor/firmware/187_signalSwitch_P_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/187_signalSwitch_P_RTP.bin \
+    vendor/xiaomi/yuechu/proprietary/vendor/firmware/188_signalTab_P_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/188_signalTab_P_RTP.bin \
+    vendor/xiaomi/yuechu/proprietary/vendor/firmware/189_signalText_P_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/189_signalText_P_RTP.bin \
+    vendor/xiaomi/yuechu/proprietary/vendor/firmware/190_signalTransitionLight_P_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/190_signalTransitionLight_P_RTP.bin \
+    vendor/xiaomi/yuechu/proprietary/vendor/firmware/191_signalTransition_P_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/191_signalTransition_P_RTP.bin \
+    vendor/xiaomi/yuechu/proprietary/vendor/firmware/1_doubelClick_P_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/1_doubelClick_P_RTP.bin \
+    vendor/xiaomi/yuechu/proprietary/vendor/firmware/2_tick_P_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/2_tick_P_RTP.bin \
+    vendor/xiaomi/yuechu/proprietary/vendor/firmware/3_thud_P_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/3_thud_P_RTP.bin \
+    vendor/xiaomi/yuechu/proprietary/vendor/firmware/4_pop_P_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/4_pop_P_RTP.bin \
+    vendor/xiaomi/yuechu/proprietary/vendor/firmware/5_heavyClick_P_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/5_heavyClick_P_RTP.bin \
+    vendor/xiaomi/yuechu/proprietary/vendor/firmware/72_GestureUpSlide_P_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/72_GestureUpSlide_P_RTP.bin \
+    vendor/xiaomi/yuechu/proprietary/vendor/firmware/73_fodMotionPlanet_P_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/73_fodMotionPlanet_P_RTP.bin \
+    vendor/xiaomi/yuechu/proprietary/vendor/firmware/74_ChargeWire_P_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/74_ChargeWire_P_RTP.bin \
+    vendor/xiaomi/yuechu/proprietary/vendor/firmware/75_ChargeWireless_P_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/75_ChargeWireless_P_RTP.bin \
+    vendor/xiaomi/yuechu/proprietary/vendor/firmware/76_UnlockFailed_P_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/76_UnlockFailed_P_RTP.bin \
+    vendor/xiaomi/yuechu/proprietary/vendor/firmware/77_fodMotion1_P_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/77_fodMotion1_P_RTP.bin \
+    vendor/xiaomi/yuechu/proprietary/vendor/firmware/78_fodMotion2_P_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/78_fodMotion2_P_RTP.bin \
+    vendor/xiaomi/yuechu/proprietary/vendor/firmware/79_fodMotion3_P_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/79_fodMotion3_P_RTP.bin \
+    vendor/xiaomi/yuechu/proprietary/vendor/firmware/80_fodMotion4_P_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/80_fodMotion4_P_RTP.bin \
+    vendor/xiaomi/yuechu/proprietary/vendor/firmware/81_FaceIDWrong1_P_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/81_FaceIDWrong1_P_RTP.bin \
+    vendor/xiaomi/yuechu/proprietary/vendor/firmware/82_FaceIDWrong2_P_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/82_FaceIDWrong2_P_RTP.bin \
+    vendor/xiaomi/yuechu/proprietary/vendor/firmware/83_uninstallAnimation_P_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/83_uninstallAnimation_P_RTP.bin \
+    vendor/xiaomi/yuechu/proprietary/vendor/firmware/84_uninstallDialog_P_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/84_uninstallDialog_P_RTP.bin \
+    vendor/xiaomi/yuechu/proprietary/vendor/firmware/85_screenshot_P_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/85_screenshot_P_RTP.bin \
+    vendor/xiaomi/yuechu/proprietary/vendor/firmware/86_lockscreenCameraEntry_P_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/86_lockscreenCameraEntry_P_RTP.bin \
+    vendor/xiaomi/yuechu/proprietary/vendor/firmware/87_launcherEdit_P_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/87_launcherEdit_P_RTP.bin \
+    vendor/xiaomi/yuechu/proprietary/vendor/firmware/88_launcherIconSelection_P_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/88_launcherIconSelection_P_RTP.bin \
+    vendor/xiaomi/yuechu/proprietary/vendor/firmware/89_taskcardRemove_P_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/89_taskcardRemove_P_RTP.bin \
+    vendor/xiaomi/yuechu/proprietary/vendor/firmware/90_taskCleanAll_P_Rtp.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/90_taskCleanAll_P_Rtp.bin \
+    vendor/xiaomi/yuechu/proprietary/vendor/firmware/91_newIconFolder_P_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/91_newIconFolder_P_RTP.bin \
+    vendor/xiaomi/yuechu/proprietary/vendor/firmware/92_notificationRemove_P_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/92_notificationRemove_P_RTP.bin \
+    vendor/xiaomi/yuechu/proprietary/vendor/firmware/93_notificationCleanall_P_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/93_notificationCleanall_P_RTP.bin \
+    vendor/xiaomi/yuechu/proprietary/vendor/firmware/94_notificationSetting_P_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/94_notificationSetting_P_RTP.bin \
+    vendor/xiaomi/yuechu/proprietary/vendor/firmware/95_gameTurbo_P_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/95_gameTurbo_P_RTP.bin \
+    vendor/xiaomi/yuechu/proprietary/vendor/firmware/96_nfcCard_P_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/96_nfcCard_P_RTP.bin \
+    vendor/xiaomi/yuechu/proprietary/vendor/firmware/97_wakeupVoiceAssistant_P_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/97_wakeupVoiceAssistant_P_RTP.bin \
+    vendor/xiaomi/yuechu/proprietary/vendor/firmware/98_nfcCardSlow_P_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/98_nfcCardSlow_P_RTP.bin \
     vendor/xiaomi/yuechu/proprietary/vendor/firmware/BT_FW.cfg:$(TARGET_COPY_OUT_VENDOR)/firmware/BT_FW.cfg \
+    vendor/xiaomi/yuechu/proprietary/vendor/firmware/CFM_Headshot_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/CFM_Headshot_RTP.bin \
+    vendor/xiaomi/yuechu/proprietary/vendor/firmware/CFM_Headshot_Strong_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/CFM_Headshot_Strong_RTP.bin \
+    vendor/xiaomi/yuechu/proprietary/vendor/firmware/CFM_Hero_Appear_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/CFM_Hero_Appear_RTP.bin \
+    vendor/xiaomi/yuechu/proprietary/vendor/firmware/CFM_ImpactFlesh_Normal_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/CFM_ImpactFlesh_Normal_RTP.bin \
+    vendor/xiaomi/yuechu/proprietary/vendor/firmware/CFM_KillOne_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/CFM_KillOne_RTP.bin \
+    vendor/xiaomi/yuechu/proprietary/vendor/firmware/CFM_KillOne_Strong_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/CFM_KillOne_Strong_RTP.bin \
+    vendor/xiaomi/yuechu/proprietary/vendor/firmware/CFM_MultiKill_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/CFM_MultiKill_RTP.bin \
+    vendor/xiaomi/yuechu/proprietary/vendor/firmware/CFM_MultiKill_Strong_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/CFM_MultiKill_Strong_RTP.bin \
+    vendor/xiaomi/yuechu/proprietary/vendor/firmware/CFM_UI_Reward_OpenBox_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/CFM_UI_Reward_OpenBox_RTP.bin \
+    vendor/xiaomi/yuechu/proprietary/vendor/firmware/CFM_UI_Reward_Task_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/CFM_UI_Reward_Task_RTP.bin \
+    vendor/xiaomi/yuechu/proprietary/vendor/firmware/CFM_Weapon_BLT_Shoot_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/CFM_Weapon_BLT_Shoot_RTP.bin \
+    vendor/xiaomi/yuechu/proprietary/vendor/firmware/CFM_Weapon_C4_Installed_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/CFM_Weapon_C4_Installed_RTP.bin \
+    vendor/xiaomi/yuechu/proprietary/vendor/firmware/CFM_Weapon_Grenade_Explode_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/CFM_Weapon_Grenade_Explode_RTP.bin \
+    vendor/xiaomi/yuechu/proprietary/vendor/firmware/Charge_Wire_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/Charge_Wire_RTP.bin \
+    vendor/xiaomi/yuechu/proprietary/vendor/firmware/Charge_Wireless_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/Charge_Wireless_RTP.bin \
+    vendor/xiaomi/yuechu/proprietary/vendor/firmware/FOD_Motion1_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/FOD_Motion1_RTP.bin \
+    vendor/xiaomi/yuechu/proprietary/vendor/firmware/FOD_Motion2_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/FOD_Motion2_RTP.bin \
+    vendor/xiaomi/yuechu/proprietary/vendor/firmware/FOD_Motion3_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/FOD_Motion3_RTP.bin \
+    vendor/xiaomi/yuechu/proprietary/vendor/firmware/FOD_Motion4_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/FOD_Motion4_RTP.bin \
+    vendor/xiaomi/yuechu/proprietary/vendor/firmware/FOD_Motion_Aurora_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/FOD_Motion_Aurora_RTP.bin \
+    vendor/xiaomi/yuechu/proprietary/vendor/firmware/FOD_Motion_Planet_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/FOD_Motion_Planet_RTP.bin \
+    vendor/xiaomi/yuechu/proprietary/vendor/firmware/Gesture_Back_Pull_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/Gesture_Back_Pull_RTP.bin \
+    vendor/xiaomi/yuechu/proprietary/vendor/firmware/Gesture_Back_Release_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/Gesture_Back_Release_RTP.bin \
+    vendor/xiaomi/yuechu/proprietary/vendor/firmware/Gesture_UpHold_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/Gesture_UpHold_RTP.bin \
+    vendor/xiaomi/yuechu/proprietary/vendor/firmware/Gesture_UpSlide_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/Gesture_UpSlide_RTP.bin \
+    vendor/xiaomi/yuechu/proprietary/vendor/firmware/MIX_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/MIX_RTP.bin \
+    vendor/xiaomi/yuechu/proprietary/vendor/firmware/NFC_card_rtp.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/NFC_card_rtp.bin \
+    vendor/xiaomi/yuechu/proprietary/vendor/firmware/NFC_card_slow_rtp.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/NFC_card_slow_rtp.bin \
+    vendor/xiaomi/yuechu/proprietary/vendor/firmware/Unlock_Failed_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/Unlock_Failed_RTP.bin \
     vendor/xiaomi/yuechu/proprietary/vendor/firmware/WIFI_RAM_CODE_soc7_0_1b_1.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/WIFI_RAM_CODE_soc7_0_1b_1.bin \
     vendor/xiaomi/yuechu/proprietary/vendor/firmware/WIFI_RAM_CODE_soc7_0_1b_t_1.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/WIFI_RAM_CODE_soc7_0_1b_t_1.bin \
     vendor/xiaomi/yuechu/proprietary/vendor/firmware/WIFI_RAM_CODE_soc7_0_1c_1.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/WIFI_RAM_CODE_soc7_0_1c_1.bin \
+    vendor/xiaomi/yuechu/proprietary/vendor/firmware/alert_rtp.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/alert_rtp.bin \
     vendor/xiaomi/yuechu/proprietary/vendor/firmware/aw8624_haptic.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw8624_haptic.bin \
+    vendor/xiaomi/yuechu/proprietary/vendor/firmware/aw8624_rtp.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw8624_rtp.bin \
+    vendor/xiaomi/yuechu/proprietary/vendor/firmware/aw882xx_acf.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw882xx_acf.bin \
+    vendor/xiaomi/yuechu/proprietary/vendor/firmware/bandage_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/bandage_RTP.bin \
     vendor/xiaomi/yuechu/proprietary/vendor/firmware/conninfra.cfg:$(TARGET_COPY_OUT_VENDOR)/firmware/conninfra.cfg \
+    vendor/xiaomi/yuechu/proprietary/vendor/firmware/crawl_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/crawl_RTP.bin \
+    vendor/xiaomi/yuechu/proprietary/vendor/firmware/door_open_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/door_open_RTP.bin \
+    vendor/xiaomi/yuechu/proprietary/vendor/firmware/feedback_negative_light_rtp.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/feedback_negative_light_rtp.bin \
+    vendor/xiaomi/yuechu/proprietary/vendor/firmware/feedback_neutral_rtp.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/feedback_neutral_rtp.bin \
+    vendor/xiaomi/yuechu/proprietary/vendor/firmware/feedback_positive_rtp.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/feedback_positive_rtp.bin \
+    vendor/xiaomi/yuechu/proprietary/vendor/firmware/firearms_akm_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/firearms_akm_RTP.bin \
+    vendor/xiaomi/yuechu/proprietary/vendor/firmware/firearms_awm_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/firearms_awm_RTP.bin \
+    vendor/xiaomi/yuechu/proprietary/vendor/firmware/firearms_dp28_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/firearms_dp28_RTP.bin \
+    vendor/xiaomi/yuechu/proprietary/vendor/firmware/firearms_m16a4_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/firearms_m16a4_RTP.bin \
+    vendor/xiaomi/yuechu/proprietary/vendor/firmware/firearms_mini14_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/firearms_mini14_RTP.bin \
+    vendor/xiaomi/yuechu/proprietary/vendor/firmware/firearms_p18c_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/firearms_p18c_RTP.bin \
+    vendor/xiaomi/yuechu/proprietary/vendor/firmware/firearms_qbz_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/firearms_qbz_RTP.bin \
+    vendor/xiaomi/yuechu/proprietary/vendor/firmware/firearms_s1897_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/firearms_s1897_RTP.bin \
+    vendor/xiaomi/yuechu/proprietary/vendor/firmware/firearms_ump9_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/firearms_ump9_RTP.bin \
+    vendor/xiaomi/yuechu/proprietary/vendor/firmware/firearms_vss_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/firearms_vss_RTP.bin \
     vendor/xiaomi/yuechu/proprietary/vendor/firmware/fm_cust.cfg:$(TARGET_COPY_OUT_VENDOR)/firmware/fm_cust.cfg \
+    vendor/xiaomi/yuechu/proprietary/vendor/firmware/gamebox_launch_rtp.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gamebox_launch_rtp.bin \
+    vendor/xiaomi/yuechu/proprietary/vendor/firmware/grenade_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/grenade_RTP.bin \
+    vendor/xiaomi/yuechu/proprietary/vendor/firmware/grenade_explosion_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/grenade_explosion_RTP.bin \
+    vendor/xiaomi/yuechu/proprietary/vendor/firmware/haptics_video_rtp.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/haptics_video_rtp.bin \
+    vendor/xiaomi/yuechu/proprietary/vendor/firmware/launcher_edit_rtp.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/launcher_edit_rtp.bin \
+    vendor/xiaomi/yuechu/proprietary/vendor/firmware/launcher_icon_selection_rtp.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/launcher_icon_selection_rtp.bin \
     vendor/xiaomi/yuechu/proprietary/vendor/firmware/lib3a.ccu:$(TARGET_COPY_OUT_VENDOR)/firmware/lib3a.ccu \
     vendor/xiaomi/yuechu/proprietary/vendor/firmware/lib3a.ccu_dummy:$(TARGET_COPY_OUT_VENDOR)/firmware/lib3a.ccu_dummy \
+    vendor/xiaomi/yuechu/proprietary/vendor/firmware/lockdown_rtp.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/lockdown_rtp.bin \
+    vendor/xiaomi/yuechu/proprietary/vendor/firmware/lockscreen_camera_entry_rtp.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/lockscreen_camera_entry_rtp.bin \
+    vendor/xiaomi/yuechu/proprietary/vendor/firmware/magazine_quick_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/magazine_quick_RTP.bin \
     vendor/xiaomi/yuechu/proprietary/vendor/firmware/mali_csffw.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/mali_csffw.bin \
     vendor/xiaomi/yuechu/proprietary/vendor/firmware/mali_csffw_reload.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/mali_csffw_reload.bin \
     vendor/xiaomi/yuechu/proprietary/vendor/firmware/mt6627_fm_v1_coeff.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/mt6627_fm_v1_coeff.bin \
@@ -351,8 +522,26 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/yuechu/proprietary/vendor/firmware/mt6632_fm_v1_patch.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/mt6632_fm_v1_patch.bin \
     vendor/xiaomi/yuechu/proprietary/vendor/firmware/mt6635_fm_v1_coeff.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/mt6635_fm_v1_coeff.bin \
     vendor/xiaomi/yuechu/proprietary/vendor/firmware/mt6635_fm_v1_patch.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/mt6635_fm_v1_patch.bin \
+    vendor/xiaomi/yuechu/proprietary/vendor/firmware/new_iconfolder_rtp.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/new_iconfolder_rtp.bin \
+    vendor/xiaomi/yuechu/proprietary/vendor/firmware/notification_cleanall_rtp.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/notification_cleanall_rtp.bin \
+    vendor/xiaomi/yuechu/proprietary/vendor/firmware/notification_remove_rtp.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/notification_remove_rtp.bin \
+    vendor/xiaomi/yuechu/proprietary/vendor/firmware/notification_setting_close_rtp.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/notification_setting_close_rtp.bin \
+    vendor/xiaomi/yuechu/proprietary/vendor/firmware/osc_rtp_24K_5s.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/osc_rtp_24K_5s.bin \
+    vendor/xiaomi/yuechu/proprietary/vendor/firmware/pan_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/pan_RTP.bin \
+    vendor/xiaomi/yuechu/proprietary/vendor/firmware/punch_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/punch_RTP.bin \
     vendor/xiaomi/yuechu/proprietary/vendor/firmware/remoteproc_scp:$(TARGET_COPY_OUT_VENDOR)/firmware/remoteproc_scp \
     vendor/xiaomi/yuechu/proprietary/vendor/firmware/s3907_xiaomi_m9_spi.img:$(TARGET_COPY_OUT_VENDOR)/firmware/s3907_xiaomi_m9_spi.img \
+    vendor/xiaomi/yuechu/proprietary/vendor/firmware/scene_bomb_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/scene_bomb_RTP.bin \
+    vendor/xiaomi/yuechu/proprietary/vendor/firmware/scene_bomb_injury_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/scene_bomb_injury_RTP.bin \
+    vendor/xiaomi/yuechu/proprietary/vendor/firmware/scene_closeparachute_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/scene_closeparachute_RTP.bin \
+    vendor/xiaomi/yuechu/proprietary/vendor/firmware/scene_getshot_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/scene_getshot_RTP.bin \
+    vendor/xiaomi/yuechu/proprietary/vendor/firmware/scene_jump_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/scene_jump_RTP.bin \
+    vendor/xiaomi/yuechu/proprietary/vendor/firmware/scene_openparachute_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/scene_openparachute_RTP.bin \
+    vendor/xiaomi/yuechu/proprietary/vendor/firmware/scene_step_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/scene_step_RTP.bin \
+    vendor/xiaomi/yuechu/proprietary/vendor/firmware/scope_off_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/scope_off_RTP.bin \
+    vendor/xiaomi/yuechu/proprietary/vendor/firmware/scope_on_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/scope_on_RTP.bin \
+    vendor/xiaomi/yuechu/proprietary/vendor/firmware/screenshot_rtp.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/screenshot_rtp.bin \
+    vendor/xiaomi/yuechu/proprietary/vendor/firmware/sliding_damping_rtp.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/sliding_damping_rtp.bin \
     vendor/xiaomi/yuechu/proprietary/vendor/firmware/soc7_0_ram_bt_1_1_hdr.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/soc7_0_ram_bt_1_1_hdr.bin \
     vendor/xiaomi/yuechu/proprietary/vendor/firmware/soc7_0_ram_bt_1_t_1_hdr.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/soc7_0_ram_bt_1_t_1_hdr.bin \
     vendor/xiaomi/yuechu/proprietary/vendor/firmware/soc7_0_ram_bt_1a_1_hdr.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/soc7_0_ram_bt_1a_1_hdr.bin \
@@ -368,6 +557,16 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/yuechu/proprietary/vendor/firmware/soc7_0_ram_wmmcu_1c_1_hdr.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/soc7_0_ram_wmmcu_1c_1_hdr.bin \
     vendor/xiaomi/yuechu/proprietary/vendor/firmware/soc_fm_v1_coeff.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/soc_fm_v1_coeff.bin \
     vendor/xiaomi/yuechu/proprietary/vendor/firmware/soc_fm_v1_patch.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/soc_fm_v1_patch.bin \
+    vendor/xiaomi/yuechu/proprietary/vendor/firmware/task_cleanall_rtp.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/task_cleanall_rtp.bin \
+    vendor/xiaomi/yuechu/proprietary/vendor/firmware/todo_alldone_rtp.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/todo_alldone_rtp.bin \
+    vendor/xiaomi/yuechu/proprietary/vendor/firmware/uninstall_animation_icon_rtp.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/uninstall_animation_icon_rtp.bin \
+    vendor/xiaomi/yuechu/proprietary/vendor/firmware/uninstall_animation_rtp.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/uninstall_animation_rtp.bin \
+    vendor/xiaomi/yuechu/proprietary/vendor/firmware/uninstall_dialog_rtp.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/uninstall_dialog_rtp.bin \
+    vendor/xiaomi/yuechu/proprietary/vendor/firmware/vehicle_buggy_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vehicle_buggy_RTP.bin \
+    vendor/xiaomi/yuechu/proprietary/vendor/firmware/vehicle_collision_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vehicle_collision_RTP.bin \
+    vendor/xiaomi/yuechu/proprietary/vendor/firmware/vehicle_dacia_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vehicle_dacia_RTP.bin \
+    vendor/xiaomi/yuechu/proprietary/vendor/firmware/vehicle_moto_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vehicle_moto_RTP.bin \
+    vendor/xiaomi/yuechu/proprietary/vendor/firmware/vehicle_plane_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vehicle_plane_RTP.bin \
     vendor/xiaomi/yuechu/proprietary/vendor/firmware/wifi.cfg:$(TARGET_COPY_OUT_VENDOR)/firmware/wifi.cfg \
     vendor/xiaomi/yuechu/proprietary/vendor/lib/egl/egl.cfg:$(TARGET_COPY_OUT_VENDOR)/lib/egl/egl.cfg \
     vendor/xiaomi/yuechu/proprietary/vendor/libnfc-nxp_RF.conf:$(TARGET_COPY_OUT_VENDOR)/libnfc-nxp_RF.conf \
@@ -417,10 +616,11 @@ PRODUCT_PACKAGES += \
     libGLES_mali \
     android.hardware.gnss-impl-mediatek \
     android.hardware.gnss@2.1-impl-mediatek \
+    android.hardware.sensors@2.X-subhal-mediatek \
     audio.primary.mediatek \
     audio.r_submix.mediatek \
     consumerir.common \
-    fingerprint.goodix_fod \
+    fingerprint.goodix_fod.default \
     gatekeeper.mitee \
     gps.default \
     hwcomposer.mtk_common \
@@ -438,10 +638,12 @@ PRODUCT_PACKAGES += \
     vendor.mediatek.hardware.mms@1.6-impl \
     vendor.mediatek.hardware.nvram@1.1-impl \
     vendor.mediatek.hardware.videotelephony@1.0-impl \
+    vendor.xiaomi.hardware.bgservice@1.0-impl \
     vendor.xiaomi.hardware.micharge@1.0-impl \
     jcos_nq_client-v1 \
     lib3a.ae.pipe \
     lib3a.cculog \
+    libAF \
     libAITrackingAFMgr \
     libArcNetMtk \
     libBasicModule \
@@ -453,6 +655,7 @@ PRODUCT_PACKAGES += \
     libNoFpsActor \
     libOpenCL \
     libSQLiteModule_VER_ALL \
+    libTrueSight \
     lib_iir \
     lib_speech_enh \
     libaaa_gma \
@@ -468,7 +671,11 @@ PRODUCT_PACKAGES += \
     libalAILDC \
     libalAI_Seg \
     libalLDC \
+    libalNN \
+    libalNN_engine \
+    libalNN_gpu \
     libalacdec_mtk \
+    libalgobaseutils \
     libalhLDC \
     libalsautils-v31 \
     libanc_calibration_parser \
@@ -480,6 +687,7 @@ PRODUCT_PACKAGES += \
     libapusys_edma \
     libarcsoft_beautyshot \
     libarcsoft_dualcam_refocus_image \
+    libarcsoft_dualcam_refocus_image_front \
     libarcsoft_dualcam_refocus_video \
     libarcsoft_hdr_detection \
     libarcsoft_high_dynamic_range \
@@ -487,7 +695,12 @@ PRODUCT_PACKAGES += \
     libarcsoft_mf_superresolution \
     libarcsoft_portrait_lighting \
     libarcsoft_portrait_lighting_c \
+    libarcsoft_sn_mtk_apu \
+    libarcsoft_super_night_detection \
     libarcsoft_super_night_raw \
+    libarcsoft_super_night_raw_front \
+    libarcsoft_super_night_raw_wrap \
+    libarcsoft_zoom_high_dynamic_range \
     libarmnn \
     libarmnn_ndk.mtk.vndk \
     libaudio_param_parser-vnd \
@@ -531,9 +744,12 @@ PRODUCT_PACKAGES += \
     libcamalgo.warp \
     libcamera_scene \
     libcameraplatforminfoxiaomi \
+    libcamlog \
     libcares_naptr \
     libcarrierconfig \
     libccci_util \
+    libcdsprpc \
+    libceres \
     libcmdl \
     libcmdl_ndk.mtk.vndk \
     libcodec2_mtk_c2store \
@@ -549,13 +765,21 @@ PRODUCT_PACKAGES += \
     libcodec2_vpp_gc_plugin \
     libcodec2_vpp_qt_plugin \
     libcodec2_vpp_rs_plugin \
+    libcom.xiaomi.debug \
+    libcom.xiaomi.eventcallback \
+    libcom.xiaomi.grallocutils \
     libcom.xiaomi.metadatautils \
+    libcom.xiaomi.mizone.cpupolicy \
+    libcom.xiaomi.mizone.decoupleutil \
+    libcom.xiaomi.mizone.postprocinterface \
+    libcom.xiaomi.mizone \
     libcom.xiaomi.pluginutils \
     libcomposer_ext \
     libconnfem \
     libcustom_nvram \
     libcvsd_mtk \
     libdapparamstorage \
+    libdeflicker \
     libdolbyeglplugin \
     libdolbyottcameracontrol \
     libdolbyplugin \
@@ -568,6 +792,7 @@ PRODUCT_PACKAGES += \
     libformatter \
     libfvaudio \
     libged \
+    libgf_hal \
     libgpu_aux \
     libgpud \
     libgralloc_extra \
@@ -599,10 +824,14 @@ PRODUCT_PACKAGES += \
     libmialgo_ie_capture \
     libmialgo_sd \
     libmialgo_utils \
+    libmialgo_video_seg_depth \
     libmialgoengine \
+    libmibokeh_845_video \
+    libmibokeh_mt6873 \
     libmigpese@1.0 \
     libmipc \
     libmiresample \
+    libmisight \
     libmisound \
     libmisoundcrossfade \
     libmispowerop \
@@ -621,6 +850,7 @@ PRODUCT_PACKAGES += \
     libmtk_bsg \
     libmtkares \
     libmtkcam_3rdcalibration \
+    libmtkcam_fdWarpConvert \
     libmtkcam_thirdparty.customzone \
     libmtkconfig \
     libmtkconfigutils \
@@ -663,6 +893,7 @@ PRODUCT_PACKAGES += \
     libnxp_extamp_intf \
     libnxpsmartpaparser \
     libpixelflinger \
+    libportrait_repair_apu \
     libpqframework \
     libratconfig \
     librelight_only \
@@ -691,6 +922,7 @@ PRODUCT_PACKAGES += \
     libvia-ril \
     libviagpsrpc \
     libviamipc-ril \
+    libvideoBokeh \
     libvideofilter_only \
     libvidhance \
     libvoiprec \
@@ -701,6 +933,8 @@ PRODUCT_PACKAGES += \
     libvow_ap_test_nn \
     libvpu \
     libvpu5 \
+    libwa_opticalzoomfactor \
+    libwa_sat \
     libwifi-hal-mtk \
     libwpfa \
     libwvhidl \
@@ -1007,6 +1241,7 @@ PRODUCT_PACKAGES += \
     yuechus5kgd2aux_mipi_raw_IdxMgr \
     yuechus5kgd2aux_mipi_raw_tuning \
     se_nq_extn_client-v1 \
+    sensors.touch.detect \
     libaudiopreprocessing_mtk \
     libdynproc \
     libmisoundfx \
@@ -1070,18 +1305,19 @@ PRODUCT_PACKAGES += \
     vendor.mediatek.hardware.pq@2.8 \
     vendor.mediatek.hardware.pq@2.9 \
     vendor.mediatek.hardware.videotelephony@1.0 \
+    vendor.xiaomi.hardware.bgservice@1.0 \
     vendor.xiaomi.hardware.micharge@1.0 \
     vendor.xiaomi.hardware.soterservice@1.0 \
     vendor.xiaomi.hardware.tidaservice@1.0 \
     vendor.xiaomi.hardware.tidaservice@1.1 \
     vendor.xiaomi.hardware.tidaservice@1.2 \
+    libalCFR \
     SoterService \
     android.hardware.neuralnetworks-shim-service-mtk.xml \
     android.hardware.security.keymint-service.mitee.xml \
     android.hardware.security.secureclock-service.mitee.xml \
     android.hardware.security.sharedsecret-service.mitee.xml \
     android.hardware.usb@1.2-service-mediatekv2.xml \
-    fod.xml \
     gnss-mtk.xml \
     gnss@2.1-service.xml \
     manifest_android.hardware.drm@1.4-service.widevine.xml \
